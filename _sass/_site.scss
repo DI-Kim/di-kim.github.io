@@ -64,7 +64,9 @@ body {
               transition: all .2s ease;
       margin-right: .3rem;
 
-      &:hover,
+      &:hover {
+        color: $oc-gray-8;
+      }
       &:focus {
         color: $oc-gray-7;
         text-decoration: none;
@@ -184,7 +186,7 @@ body {
 .list {
   &-post {
     padding: 4% 2%;
-    
+
     &:hover {
       background-color: $background-over-color;
       border-color: transparent;
